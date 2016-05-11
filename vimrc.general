@@ -1,0 +1,17 @@
+color evening
+set nocompatible
+set showcmd
+set nu
+set ruler
+set hlsearch
+set incsearch
+set shiftwidth=4
+set expandtab
+set mouse=a
+set autoindent
+set expandtab
+filetype plugin indent on
+nnoremap <silent> <F8> :TlistToggle<CR>
+
+let Tlist_Exit_OnlyWindow = 1
+let Tlist_Auto_Open = 1
